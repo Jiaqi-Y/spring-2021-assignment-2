@@ -12,5 +12,6 @@ out vec4 vColor;
 void main() {
     vColor = uColor;
     gl_Position = uProjection * uView * uModel * vec4(position, 1);
+	 
 }
 `;

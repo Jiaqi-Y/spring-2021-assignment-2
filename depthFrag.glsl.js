@@ -9,5 +9,8 @@ out vec4 outColor;
 
 void main() {
     // TODO: sample from uSampler and output value
+	
+	
+	outColor = texture(uSampler,vTexcoord)   ;
 }
 `;

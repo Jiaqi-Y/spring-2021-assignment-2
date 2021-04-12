@@ -4,6 +4,7 @@ import shadowFragShaderSrc from './shadowFrag.glsl.js';
 import shadowVertShaderSrc from './shadowVert.glsl.js';
 import depthFragShaderSrc from './depthFrag.glsl.js';
 import depthVertShaderSrc from './depthVert.glsl.js';
+//
 
 var gl;
 
